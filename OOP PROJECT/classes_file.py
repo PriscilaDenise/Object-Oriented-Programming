@@ -41,7 +41,7 @@ class Teacher(Person):
 
     def __init__(self, surname, first_name, gender, contact, email, nin, location, teacher_id, course_taught):
         super().__init__(surname, first_name, gender, contact, email, nin, location)
-        self.__teacher_id = teacher_id
+        self.__teacher_id = teacher_id # encapsulation
         self.course_taught = course_taught
 
     def register_person(self):

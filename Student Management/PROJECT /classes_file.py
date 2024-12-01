@@ -22,6 +22,7 @@ class Student(Person):
         super().__init__(surname, first_name, gender, contact, email, nin, location)
         self.__student_id = student_id # encapsulation
 
+
     # Registers students and saves data in a studentsDatabase dictionary.
     def register_person(self):
         try:
