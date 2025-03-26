@@ -11,4 +11,4 @@ class Discount(ABC):
 
 class PercentageDiscount(Discount):
     def __init__ (self, percentage):
-        s
+        
